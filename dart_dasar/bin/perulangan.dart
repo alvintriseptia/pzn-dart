@@ -27,19 +27,19 @@ void main() {
   //break & continue
   //continue berfungsi untuk menghentikan perulangan saat ini
   //break berfungsi untuk menghentikan seluruh perulangan
-  // for (int i = 1; i <= 10; i++) {
-  //   if (i % 2 == 0) {
-  //     continue;
-  //   }
-  //   if (i == 8) {
-  //     break;
-  //   }
-  //   print(i);
-  // }
+  for (int i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+      continue;
+    }
+    if (i == 7) {
+      break;
+    }
+    print(i);
+  }
 
   // for in = mengakses data list menggunakan perulangan
-  List<String> nama = ["Andi", "Budi", "Caca"];
-  for (String value in nama) {
-    print(value);
-  }
+  // List<String> nama = ["Andi", "Budi", "Caca"];
+  // for (String value in nama) {
+  //   print(value);
+  // }
 }
