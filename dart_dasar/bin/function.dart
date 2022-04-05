@@ -102,6 +102,7 @@ int factorialRecursive(int number) {
     return number * factorialRecursive(number - 1);
   }
 }
+//jika recursive terlalu dalam maka akan menghasilkan stack overflow
 
 void main() {
   print(factorialRecursive(10));
