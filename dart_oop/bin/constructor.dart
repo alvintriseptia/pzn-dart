@@ -18,6 +18,8 @@ class Person {
   //atau overloading cosntructor
 
   //method
+  //nama variable perlu diperhatikan agar tidak terjadi variable shadowing
+  //nama variable di field yang sama dengan parameter sehingga tidak berubah
   void sayHello(String paramName) {
     print("Hello $paramName, My name is $name");
   }
