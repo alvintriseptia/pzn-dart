@@ -23,4 +23,8 @@ class Product {
   set setName(String name) {
     _name = name;
   }
+
+  String toString() {
+    return 'Product id: $_id, name: $_name, quantity: $_quantity';
+  }
 }
